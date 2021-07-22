@@ -8,7 +8,6 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -21,7 +20,6 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -29,7 +27,6 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -37,7 +34,6 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editText3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -45,7 +41,6 @@
         android:inputType="phone" />
 
     <EditText
-        android:id="@+id/editText4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -53,7 +48,6 @@
         android:inputType="number" />
 
     <EditText
-        android:id="@+id/editText5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -61,11 +55,17 @@
         android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/editText6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Введите email"
         android:inputType="textEmailAddress" />
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:selectedWeekBackgroundColor="#C62C2C"
+        android:weekNumberColor="#3939FF"
+        android:weekSeparatorLineColor="#00F400" />
 
 </LinearLayout>
