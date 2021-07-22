@@ -68,12 +68,4 @@
         android:hint="Введите email"
         android:inputType="textEmailAddress" />
 
-    <CalendarView
-        android:id="@+id/calendarView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:selectedWeekBackgroundColor="#C62C2C"
-        android:weekNumberColor="#3939FF"
-        android:weekSeparatorLineColor="#00F400" />
-
 </LinearLayout>

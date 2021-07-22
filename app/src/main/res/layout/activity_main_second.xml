@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B77AC1"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#DBE38D"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Lesson 1 Task 1"
+        android:textColor="#FF8C00"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#31D6D6"
+        android:ems="10"
+        android:gravity="left"
+        android:padding="20dp"
+        android:text="Some text"
+        android:textColor="#FFFFFF"
+        android:textSize="29sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="26dp"
+        android:background="#FF9800"
+        android:text="Button"
+        android:textSize="20sp" />
+
+    <Switch
+        android:id="@+id/Switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#FFFFFF"
+        android:text="ON/OFF"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:background="#FDFDFD"
+        android:text="Repair the car"
+        android:textColor="#E1180A"
+        android:textSize="18sp" />
+
+    <ToggleButton
+        android:id="@+id/ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#3651EA"
+        android:textColor="#ECE5A9"
+        android:textOff="Create"
+        android:textOn="Destroy" />
+</LinearLayout>
